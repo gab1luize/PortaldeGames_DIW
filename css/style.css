@@ -1,0 +1,83 @@
+.cabecalho {
+    background-image: url(/imgs/pink.jpg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-home{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 206, 227);
+    font-family: 'Sarala', sans-serif;
+}
+
+.cabecalho-itens{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(255, 206, 227);
+    border-top-left-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.principaisJogosTitulo{
+    text-align: center;
+    padding: 24px;
+}
+
+
+.principaisJogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 24px;
+    gap: 20px;
+}
+
+
+.card-title {
+    font-family: 'Sarala', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 227, 237);
+    background-image: url(/imgs/pink.jpg);
+}
+
+.infoDisciplina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(255, 206, 227);
+
+}
+
+.cabecalhoPesquisa{
+    display: flex;
+    font-family: 'Sarala', sans-serif;
+}
+
+.cardJogos{
+    background-color: rgb(255, 220, 240);
+    font-family: 'Sarala', sans-serif;
+    padding: 10px;
+    text-align:center;
+}
+
+.cardCorpoTitulo {
+    font-size: x-large;
+    padding: 20px;
+}
+
+.conteudoExibicao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
